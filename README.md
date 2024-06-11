@@ -9,6 +9,16 @@
 **Filecoin ecosystem affiliations:** `By participating in filecoin sponsored hackathons`
 
 **(Optional) Technical Sponsor:** `N/A`
+<br/>
+
+[Link to Protype](https://filecoin-ai-code-playground-debugger.netlify.app/)
+<br/>
+
+<a href="https://ibb.co/LRbWc5C"><img src="https://i.ibb.co/tKktvXb/Screenshot-2024-06-11-at-9-29-37-PM.png" alt="Screenshot-2024-06-11-at-9-29-37-PM" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a>
+<a href="https://ibb.co/Gc0h8s5"><img src="https://i.ibb.co/MMsXt8C/Screenshot-2024-06-11-at-9-29-47-PM.png" alt="Screenshot-2024-06-11-at-9-29-47-PM" border="0"></a>
+<a href="https://ibb.co/Lp8LNcK"><img src="https://i.ibb.co/MNsYBtd/Screenshot-2024-06-11-at-9-30-02-PM.png" alt="Screenshot-2024-06-11-at-9-30-02-PM" border="0"></a>
+
+<br />
 
 ### 1. What is your project and what existing gap will your project address?
 
