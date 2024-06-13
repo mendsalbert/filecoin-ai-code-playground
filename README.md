@@ -18,8 +18,6 @@
 <a href="https://ibb.co/Gc0h8s5"><img src="https://i.ibb.co/MMsXt8C/Screenshot-2024-06-11-at-9-29-47-PM.png" alt="Screenshot-2024-06-11-at-9-29-47-PM" border="0"></a>
 <a href="https://ibb.co/Lp8LNcK"><img src="https://i.ibb.co/MNsYBtd/Screenshot-2024-06-11-at-9-30-02-PM.png" alt="Screenshot-2024-06-11-at-9-30-02-PM" border="0"></a>
 
-<br />
-
 ### 1. What is your project and what existing gap will your project address?
 
 Our project aims to integrate an AI coding playground into the Filecoin documentation, significantly enhancing the user experience and supporting error resolution for developers working within the Filecoin ecosystem. The primary use case of this AI playground is to assist users when they encounter errors or bugs in their code, such as issues with adding an image to IPFS. By allowing users to copy problematic code snippets into this AI tool, they will receive real-time suggestions and solutions to fix the errors, streamlining the debugging process and reducing the time spent on troubleshooting.
