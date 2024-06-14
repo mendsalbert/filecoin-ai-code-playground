@@ -52,10 +52,6 @@ Finally, we will establish a feedback loop with a subset of users who are willin
 
 By combining these quantitative and qualitative approaches, we will gain a comprehensive understanding of the AI documentation's effectiveness, ensuring it meets the needs of the Filecoin developer community and continually improves to support their evolving requirements.
 
-### 5. Will this work be published under the dual MIT and APACHE2 licenses?
-
-Yes
-
 ### 6. Does your proposal comply with our Community Code of Conduct?
 
 Yes
