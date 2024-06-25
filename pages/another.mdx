@@ -1,5 +1,81 @@
-# AI Code Playground for Debugging
+#
 
-import CodePlayground from "../components/CodePlayground";
+<img
+  src="https://i.ibb.co/JdvJh7B/Filecoin-Background-Removed.png"
+  alt="Filecoin Logo"
+  width="100"
+  height="50"
+/>
 
-<CodePlayground />
+# Comprehensive Developer Guides - Filecoin Storage API Troubleshooting
+
+## Example: Uploading to IPFS Using Pinata
+
+### Introduction
+
+Uploading files to IPFS can sometimes be challenging, especially for new developers. Here’s a clear and detailed guide on how to upload files to IPFS using Pinata, which simplifies the process by providing a user-friendly interface and API.
+
+### Prerequisites
+
+- A Pinata account. Sign up at [Pinata](https://app.pinata.cloud).
+- Pinata API keys (API Key, API Secret, and JWT).
+- Basic knowledge of JavaScript.
+
+### Step-by-Step Guide
+
+1. **Create a Pinata Account**
+
+   Go to [Pinata](https://app.pinata.cloud) and sign up for an account. After confirming your email, you can access your dashboard and API keys.
+
+2. **Get Your Pinata API Keys**
+
+   Navigate to the API keys section in your Pinata dashboard. Generate a new API key if you don’t have one. Note the API Key, API Secret, and JWT for use in your code.
+
+3. **Install Required Packages**
+
+   Install `axios`, `fs`, and `form-data` packages if you are using Node.js.
+
+   ```bash
+   npm install axios fs form-data
+   ```
+
+4. **Upload File to IPFS**
+
+   Here is a Node.js example to upload a file to IPFS using the Pinata API:
+
+   ```javascript
+   const axios = require("axios");
+   const fs = require("fs");
+   const FormData = require("form-data");
+
+   const pinFileToIPFS = async () => {
+     const url = `https://api.pinata.cloud/pinning/pinFileToIPFS`;
+     const path = "path/to/your/file.png"; // Change this to the path of your file
+     const data = new FormData();
+     data.append("file", fs.createReadStream(path));
+
+     try {
+       const response = await axios.post(url, data, {
+         maxContentLength: Infinity,
+         maxBodyLength: Infinity,
+         headers: {
+           "Content-Type": `multipart/form-data; boundary=${data._boundary}`,
+           Authorization: `Bearer YOUR_PINATA_JWT`, // Use your Pinata JWT here
+         },
+       });
+       console.log(response.data);
+     } catch (error) {
+       console.error(error);
+     }
+   };
+
+   pinFileToIPFS();
+   ```
+
+5. **Check Your Uploaded File**
+
+   Once uploaded, Pinata will return an IPFS hash (CID). You can use this hash to access your file on the IPFS network.
+
+### Conclusion
+
+By following these steps, you can easily upload files to IPFS using Pinata. This example demonstrates the process using Node.js, but similar steps can be followed using other programming languages and environments.
